@@ -1,0 +1,8 @@
+CREATE TABLE `review` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(128) NULL,
+  `message` TEXT NULL,
+  `date` DATETIME NULL,
+  PRIMARY KEY (`id`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8;
